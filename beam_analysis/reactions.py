@@ -1,4 +1,3 @@
-# reactions.py
 def calculate_reactions(beam_length, loads, positions, supports, moments, moment_positions, moment_directions):
     """Calculate reactions for a beam with point loads, moments, and supports."""
     if len(supports) == 1:
