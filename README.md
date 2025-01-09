@@ -21,6 +21,9 @@ The code is organized into separate modules for clarity and maintainability:
   - Beams with a single fixed or simple support
 - Handles triangular, rectangular, and trapezoidal distributed loads.
 
+## 📐 Reference System
+- All force positions and support positions should be measured from the **left end** of the beam.
+
 ## 📊 Example Usage
 ```bash
 python main.py
@@ -49,4 +52,3 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 
 ## 📄 License
 This project is licensed under the MIT License.
-
